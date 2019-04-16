@@ -1,0 +1,49 @@
+{% extends "base2.html" %}
+{% load staticfiles %}
+{% block content %}
+{% load staticfiles %}
+    {% block css %}<link href="{% static 'css/index.css' %}" rel="stylesheet"/>{% endblock %}
+   <div class="container">
+        <div class="col-md-4 col-md-offset-4">
+            <h4 align="center">添加课程信息</h4>
+            <form action="/add/" method="POST">
+                 {% for line in lessons_list %}
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="purchase_date">课程名</label>
+                    <input type="text" class="form-control" id="purchase_date" name="purchase_date" align="center"
+                           placeholder="{{ line.lessonsname }}" readonly="true" >
+                </div>
+                <div class="form-group">
+                    <label for="product_name">上课节次</label>
+                    <input type="text" class="form-control" id="product_name" name="product_name"
+                           placeholder="{{ line.detaltime }}"  readonly="true">
+                </div>
+                <div class="form-group">
+                    <label for="purchase_number">星期几</label>
+                    <input type="text" class="form-control" id="purchase_number" name="purchase_number"
+                           placeholder="{{ line.whatday }}" readonly="true">
+                </div>
+                 <div class="form-group">
+                    <label for="purchase_price">教师</label>
+                    <input type="text" class="form-control" id="purchase_price" name="purchase_price"
+                           placeholder="{{ line.name }}" readonly="true">
+                </div>
+                <div class="form-group">
+                    <label for="remark">上课地点</label>
+                    <input type="text" class="form-control" id="remark" name="remark"
+                           placeholder="{{ line.place }}" readonly="true">
+                </div><div class="form-group">
+                    <label for="remark">旁听周次</label>
+                    <input type="text" class="form-control" id="remark" name="w"
+                           placeholder="请输入要旁听的周次 {{ line.beginfinsh }}">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary" value="{{ line.id }}"  name="q">提交</button>
+                </div>
+          {% endfor %}
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

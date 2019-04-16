@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load pagination_tags %}
+{% block title %}主页{% endblock %}
+{% block content %}
+    {% if request.session.is_login %}
+{% block css %}<link href="{% static 'css/index.css' %}" rel="stylesheet"/>{% endblock %}
+
+        <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1"   >
+      <thead >
+        <tr>
+
+            <th align="center">&nbsp&nbsp 星期几</th>
+            <th> 上课节次</th>
+            <th> 起止周</th>
+            <th> 课程名</th>
+            <th> 教师 </th>
+            <th> 上课地点</th>
+            <th> 课堂组成</th>
+            <th> 剩余可选</th>
+            <th> 操作</th>
+        </tr>
+    </thead>
+    <tbody>
+{% autopaginate lessons_list %}
+        {% for line in lessons_list %}
+
+        <tr class="odd gradeX">
+        <form action="/choose/" method="get">
+
+            <td >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{ line.whatday }}</td>
+            <td>{{ line.detaltime }}</td>
+            <td>{{ line.beginfinsh }}</td>
+            <td>{{ line.lessonsname }}</td>
+            <td>{{ line.name }}</td>
+            <td>{{ line.place }}</td>
+            <td>{{ line.comprise }}</td>
+            <td>{{ line.lessonsmargin }}</td>
+             <td><button type="submit" class="btn btn-default" value="{{ line.id }}" name="q" >选择</button></td>
+</form>
+        </tr>
+
+
+        {% endfor %}
+    </tbody>
+
+</table>
+ <center>{% paginate %}</center>
+
+    {% else %}
+    <h1>你尚未登录，只能访问公开内容！</h1>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,82 @@
+{% extends 'base2.html' %}
+{% block title %}主页{% endblock %}
+{% load staticfiles %}
+{% block content %}
+    {% if request.session.is_login %}
+        {% block css %}<link href="{% static 'css/index.css' %}" rel="stylesheet"/>{% endblock %}
+        <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
+      <thead>
+        <tr>
+
+            <th> &nbsp&nbsp星期几</th>
+            <th> 上课节次</th>
+            <th> 起止周</th>
+            <th> 课程名</th>
+            <th> 教师</th>
+            <th> 上课地点</th>
+            <th> 课堂组成</th>
+            <th> 剩余可选</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tbody>
+        {% for line in lesson_list %}
+        <tr class="odd gradeX">
+
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{line.whatday }}</td>
+            <td>{{ line.detaltime }}</td>
+            <td>{{ line.beginfinsh }}</td>
+            <td>{{ line.lessonsname }}</td>
+            <td>{{ line.name }}</td>
+            <td>{{ line.place }}</td>
+            <td>{{ line.comprise }}</td>
+            <td>{{ line.lessonsmargin }}</td>
+
+        </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+        <ul style="float:left">
+            共 <span>{{ lessons_list.paginator.count }}</span> 条任务，总 <span>{{ lessons_list.paginator.num_pages }}</span> 页
+        </ul>
+        <ul class="pagination" style="float:right">
+        {% if lessons_list.has_previous %}
+            <li><a href="?table=2&&page={{ lessons_list.previous_page_number }}" class="prev">{{ previous_link_decorator|safe }}上一页</a></li>
+        {% else %}
+            <li class="paginate_button previous disabled"><span class="disabled prev">{{ previous_link_decorator|safe }}上一页</span></li>
+        {% endif %}
+
+        {% if lessons_list.has_previous %}
+            <li><a href="?table=2&&page=1" class="prev">{{ previous_link_decorator|safe }}首页</a></li>
+        {% else %}
+            <li class="paginate_button previous disabled"><span class="disabled prev">{{ previous_link_decorator|safe }}首页</span></li>
+        {% endif %}
+
+        {% for page in p_pages_user_review %}
+        {% if page %}
+        {% ifequal page lessons_list.number %}
+        <li class="active"><span class="current page">{{ page }}</span></li>
+        {% else %}
+        <li><a href="?table=2&&page{{ page_suffix }}={{ page }}{{ getvars }}" class="page">{{ page }}</a></li>
+        {% endifequal %}
+        {% endif %}
+        {% endfor %}
+
+        {% if lessons_list.has_next %}
+            <li><a href="?table=2&&page={{ lessons_list.paginator.num_pages }}" class="next" name="">末页{{ next_link_decorator|safe }}</a></li>
+        {% else %}
+                <li class="paginate_button next disabled"><span class="disabled next"name="">末页{{ next_link_decorator|safe }}</span></li>
+        {% endif %}
+
+        {% if lessons_list.has_next %}
+                <li><a href="?table=2&&page={{ lessons_list.next_page_number }}" class="next" name="">下一页{{ next_link_decorator|safe }}</a></li>
+        {% else %}
+                <li class="paginate_button next disabled"><span class="disabled next" name="">下一页{{ next_link_decorator|safe }}</span></li>
+        {% endif %}
+        </ul>
+    {% else %}
+    <h1>你尚未登录，只能访问公开内容！</h1>
+    {% endif %}
+{% endblock %}

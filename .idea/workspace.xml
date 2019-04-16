@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f674aa98-da27-44f0-9335-66888fd37ac8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xuanke/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/templates/login/index" />
+        <option value="$PROJECT_DIR$/templates/login/login" />
+        <option value="$PROJECT_DIR$/templates/login/register" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c5ada789-76d1-4aa0-9351-3d831b1efb98/console.sql" />
+        <option value="$PROJECT_DIR$/login/templates/login/register.html" />
+        <option value="$PROJECT_DIR$/login/migrations/0002_lessons.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/p_books.html" />
+        <option value="$PROJECT_DIR$/static/js/index.js" />
+        <option value="$PROJECT_DIR$/xuanke/__init__.py" />
+        <option value="$PROJECT_DIR$/login/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/re.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/choiseagain.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/search.html" />
+        <option value="$PROJECT_DIR$/login/setting.py" />
+        <option value="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/login/templates/login/choise.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/setting.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/index.html" />
+        <option value="$PROJECT_DIR$/static/css/evaluate.css" />
+        <option value="$PROJECT_DIR$/login/templates/login/syh.tml.html" />
+        <option value="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/static/css/index.css" />
+        <option value="$PROJECT_DIR$/login/templates/login/reserved.html" />
+        <option value="$PROJECT_DIR$/xuanke/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base2.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/evaluationed.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/login/models.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/sy.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/evaluate.html" />
+        <option value="$PROJECT_DIR$/login/admin.py" />
+        <option value="$PROJECT_DIR$/login/views.py" />
+        <option value="$PROJECT_DIR$/static/css/login.css" />
+        <option value="$PROJECT_DIR$/login/forms.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/pagination/middleware.py" />
+        <option value="$PROJECT_DIR$/xuanke/gunicorn-config.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/xuanke/Gunicorn.py" />
+        <option value="$PROJECT_DIR$/xuanke/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="120" />
+    <option name="y" value="24" />
+    <option name="width" value="1881" />
+    <option name="height" value="1041" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xuanke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuanke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuanke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuanke" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuanke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuanke" type="462c0819:PsiDirectoryNode" />
+              <item name="xuanke" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="xuanke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\下载\xuanke" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="xuanke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\下载\xuanke" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="xuanke" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\10285\PycharmProjects\xuanke\login\templates\login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\wangzhan\xuanke" />
+      <recent name="C:\Users\Administrator\Desktop\wangzhan\xuanke\static" />
+      <recent name="C:\Users\10285\PycharmProjects\xuanke\static\DataTables-1.10.15" />
+      <recent name="C:\Users\10285\PycharmProjects\xuanke\static\js" />
+      <recent name="C:\Users\10285\PycharmProjects\xuanke\static\picture" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.xuanke">
+    <configuration name="search" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/xuanke/login/templates/login/search" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="xuanke" type="Python.DjangoServer" factoryName="Django server">
+      <module name="xuanke" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="xuanke.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.search" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\10285\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f674aa98-da27-44f0-9335-66888fd37ac8" name="Default Changelist" comment="" />
+      <created>1552829800922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552829800922</updated>
+      <workItem from="1552829864932" duration="2843000" />
+      <workItem from="1552832803242" duration="220000" />
+      <workItem from="1552869842938" duration="8053000" />
+      <workItem from="1552912346145" duration="3452000" />
+      <workItem from="1553043648907" duration="1401000" />
+      <workItem from="1553080124911" duration="6709000" />
+      <workItem from="1553126126969" duration="104000" />
+      <workItem from="1553134043796" duration="1304000" />
+      <workItem from="1553140202272" duration="111000" />
+      <workItem from="1553140632430" duration="591000" />
+      <workItem from="1553151825590" duration="3864000" />
+      <workItem from="1553323713456" duration="672000" />
+      <workItem from="1553324604195" duration="899000" />
+      <workItem from="1553326315998" duration="5412000" />
+      <workItem from="1553339268286" duration="58000" />
+      <workItem from="1553339453537" duration="6005000" />
+      <workItem from="1553346663167" duration="465000" />
+      <workItem from="1553389743213" duration="2096000" />
+      <workItem from="1553431207446" duration="8953000" />
+      <workItem from="1553488080212" duration="668000" />
+      <workItem from="1553519743067" duration="6754000" />
+      <workItem from="1553585006341" duration="180000" />
+      <workItem from="1553657203316" duration="5024000" />
+      <workItem from="1553669933756" duration="6294000" />
+      <workItem from="1553696210481" duration="10728000" />
+      <workItem from="1553707955888" duration="2304000" />
+      <workItem from="1553738320327" duration="1507000" />
+      <workItem from="1553739942522" duration="21595000" />
+      <workItem from="1553774403311" duration="7745000" />
+      <workItem from="1553818903838" duration="4563000" />
+      <workItem from="1553840735009" duration="3037000" />
+      <workItem from="1553844972543" duration="8759000" />
+      <workItem from="1553877311771" duration="7864000" />
+      <workItem from="1553909948675" duration="4980000" />
+      <workItem from="1553916151025" duration="25218000" />
+      <workItem from="1554082593790" duration="3977000" />
+      <workItem from="1554083689478" duration="25397000" />
+      <workItem from="1554180920752" duration="2655000" />
+      <workItem from="1554185260634" duration="8297000" />
+      <workItem from="1554221103339" duration="3309000" />
+      <workItem from="1554268077220" duration="12351000" />
+      <workItem from="1554281894532" duration="75000" />
+      <workItem from="1554282760938" duration="911000" />
+      <workItem from="1554349163116" duration="22839000" />
+      <workItem from="1554431169840" duration="32369000" />
+      <workItem from="1554542968729" duration="3833000" />
+      <workItem from="1554876973742" duration="11910000" />
+      <workItem from="1554904188030" duration="9495000" />
+      <workItem from="1554944164064" duration="5281000" />
+      <workItem from="1554951385817" duration="553000" />
+      <workItem from="1555056972960" duration="4333000" />
+      <workItem from="1555134559858" duration="1249000" />
+      <workItem from="1555174264908" duration="634000" />
+      <workItem from="1555293538909" duration="3141000" />
+      <workItem from="1555297806236" duration="365000" />
+      <workItem from="1555299824312" duration="2893000" />
+      <workItem from="1555377989942" duration="4509000" />
+      <workItem from="1555393922098" duration="1306000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改了数据库设置">
+      <created>1553325220898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553325220898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="332114000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20129345" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.45747802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4944675" weight="0.28368795" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31231672" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32844576" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991204" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50444627" side_tool="true" weight="0.54964536" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49555376" visible="true" weight="0.3173759" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3280142" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32844576" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32983023" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.16814874" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15951742" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.45747802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4944675" visible="true" weight="0.30058652" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31231672" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32844576" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991204" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.43108505" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49597856" weight="0.24633431" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32844576" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32844576" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32983023" />
+      <window_info anchor="right" id="Database" order="4" weight="0.22252011" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改了数据库设置" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了数据库设置" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fd189e87-bfcb-4145-931e-9798d4aa19b2/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/165aca79-9820-4860-bdcf-884ade7b374b/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/216edf7e-8c5b-42f5-b1f9-12a4753bda26/console.sql" />
+    <entry file="das://216edf7e-8c5b-42f5-b1f9-12a4753bda26/schema/main/table/login_user" />
+    <entry file="das://216edf7e-8c5b-42f5-b1f9-12a4753bda26/schema/main/table/lessons" />
+    <entry file="file://$PROJECT_DIR$/login/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pycharm_project/untitled/venv/Lib/site-packages/django/core/checks/urls.py" />
+    <entry file="file://$PROJECT_DIR$/login/templates/login/syh.tml.html" />
+    <entry file="file://$PROJECT_DIR$/login/templates/login/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="75" column="92" selection-start-line="75" selection-start-column="92" selection-end-line="75" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://216edf7e-8c5b-42f5-b1f9-12a4753bda26/schema/main/table/sqlite_user" />
+    <entry file="das://216edf7e-8c5b-42f5-b1f9-12a4753bda26/schema/main/table/evaluation_records" />
+    <entry file="file://$PROJECT_DIR$/login/templates/login/choise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://216edf7e-8c5b-42f5-b1f9-12a4753bda26/schema/main/table/reserved" />
+    <entry file="das://216edf7e-8c5b-42f5-b1f9-12a4753bda26/schema/main/table/django_session" />
+    <entry file="file://$PROJECT_DIR$/xuanke/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/evaluationed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/reserved.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/sy.html" />
+    <entry file="file://$PROJECT_DIR$/login/templates/login/evaluate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8344">
+          <caret line="298" lean-forward="true" selection-start-line="298" selection-end-line="298" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://216edf7e-8c5b-42f5-b1f9-12a4753bda26/schema/main/table/evaluation" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO839B107F/views.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO05FC9F70/views.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO8B5B6E01/views.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO83E77422/views.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOC06F5253/views.py" />
+    <entry file="file://$PROJECT_DIR$/login/templates/login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pycharm_project/untitled/venv/Lib/site-packages/django/contrib/admin/static/admin/css/login.css" />
+    <entry file="file://$PROJECT_DIR$/static/js/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pycharm_project/untitled/venv/Lib/site-packages/openpyxl/worksheet/_reader.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="916" selection-start-line="916" selection-end-line="916" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get-pip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagination/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagination/paginator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2999" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagination/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#4#47#0" expanded="true" />
+            <element signature="e#4#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#1243#1540#0" />
+            <element signature="e#1572#2447#0" />
+            <element signature="e#2483#2829#0" />
+            <element signature="e#2869#3887#0" />
+            <element signature="e#3919#4706#0" />
+            <element signature="e#4734#5325#0" />
+            <element signature="e#5350#7592#0" />
+            <element signature="e#7625#7841#0" />
+            <element signature="e#7874#18881#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="4" column="38142" selection-start-line="4" selection-start-column="38142" selection-end-line="4" selection-end-column="38142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e4ee803-af4d-4fa8-9c9e-c070d014e5f7/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagination/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="142" selection-start-line="18" selection-start-column="142" selection-end-line="18" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="75" column="66" lean-forward="true" selection-start-line="75" selection-start-column="66" selection-end-line="75" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuanke/Gunicorn.py" />
+    <entry file="file://$PROJECT_DIR$/xuanke/gunicorn-config.py" />
+    <entry file="file://$PROJECT_DIR$/xuanke/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuanke/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

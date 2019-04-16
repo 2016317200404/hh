@@ -1,0 +1,43 @@
+{%extends 'base2.html' %}
+{% block title %}已评{% endblock %}
+{% load pagination_tags %}
+{% load staticfiles %}
+{% block content %}
+    {% if request.session.is_login %}
+        {% block css %}<link href="{% static 'css/index.css' %}" rel="stylesheet"/>{% endblock %}
+        <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
+      <tbody>
+            <thead>
+        <tr>
+  <th> &nbsp&nbsp&nbsp&nbsp老师</th>
+            <th> 课程名</th>
+            <th> 星期几</th>
+            <th> 上课节次</th>
+            <th> 第几周</th>
+            <th> 上课地点</th>
+            <th>教学班组成</th>
+
+        </tr>
+    </thead>
+
+{% autopaginate reserved_list %}
+        {% for line in reserved_list %}
+        <tr class="odd gradeX" >
+
+            <td >&nbsp&nbsp&nbsp&nbsp{{ line.name }}</td>
+            <td>{{line.lessonsname}}</td>
+            <td>{{ line.whatday }}</td>
+            <td>{{ line.detaltime }}</td>
+            <td>{{ line.whichweek }}</td>
+            <td>{{ line.place }}</td>
+            <td>{{ line.comprise }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+        {% paginate %}
+    {% else %}
+    <h1>你尚未登录，只能访问公开内容！</h1>
+    {% endif %}
+{% endblock %}
